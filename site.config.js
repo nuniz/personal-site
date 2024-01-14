@@ -10,12 +10,12 @@ const CONFIG = {
     github: "nuniz",
     instagram: "asafzorea",
   },
-  // projects: [
-  //   {
-  //     name: `morethan-log`,
-  //     href: "https://github.com/morethanmin/morethan-log",
-  //   },
-  // ],
+  projects: [
+    {
+      name: `noisereduce`,
+      href: "https://github.com/noisereduce",
+    },
+  ],
   // blog setting (required)
   blog: {
     title: "Asaf's Space",
