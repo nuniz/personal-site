@@ -12,11 +12,11 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `resume`,
+      name: `Resume`,
       href: "https://asafzorea.vercel.app/resume",
     },
     {
-      name: `noisereduce`,
+      name: `NoiseReduce`,
       href: "https://github.com/noisereduce",
     },
   ],
@@ -72,7 +72,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 300, // revalidate time for [slug], index
+  revalidateTime: 7 * 24 * 60 * 60 , // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
