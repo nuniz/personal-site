@@ -20,7 +20,7 @@ const ServiceCard: React.FC = () => {
             target="_blank"
           >
             <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects.name}</div>
+            <div className="name">{projects.name}</div>
           </a>
         ))}
       </StyledWrapper>
