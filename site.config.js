@@ -12,6 +12,10 @@ const CONFIG = {
   },
   projects: [
     {
+      name: `resume`,
+      href: "https://asafzorea.vercel.app/resume",
+    },
+    {
       name: `noisereduce`,
       href: "https://github.com/noisereduce",
     },
