@@ -22,7 +22,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "Asaf's Space",
+    title: "Asaf Zorea",
     description: "Welcome!",
   },
 
